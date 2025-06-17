@@ -5,7 +5,8 @@
     "strict": true,
     "outDir": "./dist",
     "noEmitOnError": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "removeComments": true
   },
 
   "include": ["*.ts"],
