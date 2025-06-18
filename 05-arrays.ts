@@ -35,4 +35,4 @@ Crie um array de números e calcule a soma de todos os elementos.
 */
 
 const numeros: number[] = [10, 20, 30, 40, 10];
-console.log(numeros.reduce((ac, numeros) => ac + numeros, 0));
+console.log(numeros.reduce((ac, numero) => ac + numero, 0));

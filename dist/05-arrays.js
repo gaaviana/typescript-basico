@@ -18,4 +18,4 @@ console.log(linguagens[0][0]);
 console.log(linguagens[1][0]);
 (0, modulos_1.separador)();
 const numeros = [10, 20, 30, 40, 10];
-console.log(numeros.reduce((ac, numeros) => ac + numeros, 0));
+console.log(numeros.reduce((ac, numero) => ac + numero, 0));
