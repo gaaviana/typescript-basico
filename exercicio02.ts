@@ -15,6 +15,7 @@ interface Produto {
 }
 
 function exibir({ nome, preco, garantia }: Produto) {
+  console.log(`---------------------`);
   console.log(`nome: ${nome}`);
   console.log(`Preço: ${preco}`);
   console.log(`Garantia: ${garantia}`);

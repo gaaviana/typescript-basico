@@ -1,5 +1,6 @@
 "use strict";
 function exibir({ nome, preco, garantia }) {
+    console.log(`---------------------`);
     console.log(`nome: ${nome}`);
     console.log(`Preço: ${preco}`);
     console.log(`Garantia: ${garantia}`);
