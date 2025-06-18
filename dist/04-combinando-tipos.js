@@ -16,3 +16,5 @@ console.log("Exemplo B: " + exemploB);
 let situacaoAluno1 = "ativo";
 let situacaoAluno2 = "inativo";
 let situacaoAluno3 = "pendente";
+(0, modulos_1.separador)();
+const diaAtual = "Quarta-feira";
