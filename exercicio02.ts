@@ -33,3 +33,4 @@ const p2: Produto = {
 };
 
 exibir(p1);
+exibir(p2);

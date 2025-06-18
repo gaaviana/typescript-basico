@@ -16,3 +16,4 @@ const p2 = {
     garantia: 2,
 };
 exibir(p1);
+exibir(p2);
