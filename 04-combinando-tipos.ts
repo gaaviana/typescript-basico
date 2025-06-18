@@ -38,3 +38,27 @@ type DiasDaSemana =
   | "Quarta-feira";
 
 const diaAtual: DiasDaSemana = "Quarta-feira";
+
+separador();
+
+/* Interseção de Tipos */
+type Pessoa = { nome: string; idade: number };
+type Funcionario = { salario: number };
+
+const programador: Pessoa & Funcionario = {
+  nome: "Lucas",
+  idade: 18,
+  salario: 5000,
+};
+
+console.log(programador);
+
+separador();
+
+type Colaborador = Pessoa & Funcionario;
+
+const otroProgramdor: Colaborador = {
+  nome: "Gabriel",
+  idade: 18,
+  salario: 4500,
+};

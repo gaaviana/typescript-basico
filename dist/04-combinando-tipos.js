@@ -18,3 +18,16 @@ let situacaoAluno2 = "inativo";
 let situacaoAluno3 = "pendente";
 (0, modulos_1.separador)();
 const diaAtual = "Quarta-feira";
+(0, modulos_1.separador)();
+const programador = {
+    nome: "Lucas",
+    idade: 18,
+    salario: 5000,
+};
+console.log(programador);
+(0, modulos_1.separador)();
+const otroProgramdor = {
+    nome: "Gabriel",
+    idade: 18,
+    salario: 4500,
+};
